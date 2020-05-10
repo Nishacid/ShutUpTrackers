@@ -65,6 +65,7 @@
                 <a>Our Services <i class="fas fa-sort-down"></i></a>
                 <div class="dropdown-content">
                     <a href="https://search.shutuptrackers.com/"><i class="fas fa-search" style="padding-right: 5px;"></i>Search Engine</a>
+                    <a href="https://git.shutuptrackers.com/"><i class="fab fa-git-alt" style="padding-right: 5px;"></i>Gitea</a>
                 </div>
             </div>
         </nav>

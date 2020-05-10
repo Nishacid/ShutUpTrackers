@@ -12,7 +12,7 @@
             </div>
         </div>
         <h1 style="font-size: 2.5em;" class="title_pres">Firefox Privacy Settings</h1>
-        <h3 class="title_desc">1 - Enhanced Tracking Protection</h3>
+        <h3 class="title_desc" id="tracking_protection">1 - Enhanced Tracking Protection</h3>
         <p class="desc_article">We will see the largest set of options, the Privacy and Security tab of Firefox. First, enhanced tracking protection. 
             This set of filters is set by default to Standard, but we will change it to Strict.<br>
             Also, in some rare cases, strict protections can cause websites to malfunction. 
@@ -22,19 +22,19 @@
             <a href="../img/Browser/settings.png"><img src="../img/Browser/settings.png" alt="settings" class="img_tweaks"></a><br>
             <small class="subtitle">Options/Preferences > Privacy & Security > Enhanced Tracking Protection</small>
 
-        <h3 class="title_desc">2 - Change Your Search Engine</h3>
+        <h3 class="title_desc" id="search_engine">2 - Change Your Search Engine</h3>
         <p class="desc_article">
         In the Search tab, change your default search engine to something other than Google, Bing, Yahoo ...<br>
         We offer various alternatives to these <a href="../provider/search.php">search engines here</a>
         </p>
-        <h3 class="title_desc">3 - Disabling Telemetrics</h3>
+        <h3 class="title_desc" id="telemetrics">3 - Disabling Telemetrics</h3>
         <p class="desc_article">
         When you use Firefox, the browser retrieves information about what you are doing, the type of extensions you have installed and many other things from your browser. 
         Although they claim to do so from a privacy perspective, it is always best to send as little data as possible from a privacy perspective, so we will uncheck all boxes under "Firefox data collection and use" for security reasons.
         </p>
         <a href="../img/Browser/data.png"><img src="../img/Browser/data.png" alt="data" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Firefox Data Collection and Use</small>
-        <h3 class="title_desc">4 - Clearing Cookies and Site Data</h3>
+        <h3 class="title_desc" id="cookies">4 - Clearing Cookies and Site Data</h3>
         <p class="desc_article">This one is for more advanced users, so if you don't understand what it does, you can skip this section. 
             Firefox offers the ability to delete all your cookies and site data every time Firefox is closed. 
             Cookies and site data are small pieces of information that sites store in your browser, and they have a multitude of uses. 
@@ -42,7 +42,7 @@
             By regularly deleting your cookies, your browser will appear website specific, making it harder to track you.</p>
         <a href="../img/Browser/cookies.png"><img src="../img/Browser/cookies.png" alt="cookies" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Cookies and Site Data</small>
-        <h3 class="title_desc">5 - DNS over HTTPS</h3>
+        <h3 class="title_desc" id="doh">5 - DNS over HTTPS</h3>
         <p class="desc_article">
         The DNS (or Domain Name System) is what your browser uses to turn domain names like <code>shutuptrackers.com</code> into IP addresses like <code>185.193.126.127</code>. 
         Since computers can only communicate with IP addresses, it is necessary to use DNS each time you visit a domain. 
@@ -62,14 +62,14 @@
         Encrypted SNI (eSNI) is in the works — and can actually be enabled on Firefox today — but it only works with a small number of servers, mainly ones operated by Cloudflare, so its use is limited currently. 
         Therefore, while DoH provides some additional privacy and integrity protections, its use as a privacy tool is limited until other supplemental tools like eSNI and DNSSEC are finalized and implemented.
         </p>
-        <h3 class="title_desc">6 - Multi-Account Containers</h3>
+        <h3 class="title_desc" id="container">6 - Multi-Account Containers</h3>
         <p class="desc_article">
         Mozilla has an in-house add-on called <a href="https://support.mozilla.org/en-US/kb/containers">Multi-Account Containers</a> that allows you to isolate websites from each other. 
         For example, you could have Facebook in a container separate from your other browsing. 
         In this situation, Facebook would only be able to set cookies with your profile on sites within the container, keeping your other browsing protected.
         </p>
         <a href="../img/Browser/container.png"><img src="../img/Browser/container.png" alt="dns" class="img_tweaks"></a><br>
-        <h3 class="title_desc">7 - Privacy Related "about:config" Tweaks</h3>
+        <h3 class="title_desc" id="about:config">7 - Privacy Related "about:config" Tweaks</h3>
         <p class="desc_article">
             First you need to go to <code>about:config</code> and press "Accept the Risk and Continue".<br><br>
 
@@ -155,7 +155,7 @@
             <strong>network.IDN_show_punycode = true</strong><br>
             Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice.<br><br>
         </p>
-        <h3 class="title_desc">8 - Disable WebRTC</h3>
+        <h3 class="title_desc" id="webrtc">8 - Disable WebRTC</h3>
         <p class="desc_article">WebRTC is a communication protocol that works with JavaScript that can leak your IP address from behind your VPN.<br><br>
         
         Here are two different ways to disable WebRTC :<br><br>

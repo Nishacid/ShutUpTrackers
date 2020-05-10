@@ -16,7 +16,7 @@
         Microsoft just can't seem to shake the image that Windows 10 is spying on you. And Microsoft's lack of transparency about Windows 10's privacy isn't doing much to dispel the notion.<br>
         At Windows 10's release, there have been numerous reports about how much personal information Microsoft collects.<br> 
         </p>
-        <h3 class="title_desc">1 - Shares your personal information with Microsoft by default</h3>
+        <h3 class="title_desc" id="sharing">1 - Shares your personal information with Microsoft by default</h3>
         <p class="desc_article">
         By default, Windows 10 shares a lot of information about you with Microsoft. 
         According to the company's <a href="https://privacy.microsoft.com/en-us/privacystatement">privacy policy</a>, Windows sends Microsoft everything you say to Cortana, Windows 10's Siri-like virtual assistant. 
@@ -45,7 +45,7 @@
                 <li>...</li>
             </ul>
         </p>
-        <h3 class="title_desc">2 - Uses the bandwidth of your Internet connection</h3>
+        <h3 class="title_desc" id="internet">2 - Uses the bandwidth of your Internet connection</h3>
         <p class="desc_article">
         Windows 10 will use your Internet connection to help other people download apps or update their computers.<br><br>
         If someone is having trouble connecting to Microsoft's servers, He might instead download that update or app from you, a complete stranger and It all happens in the background, without either of you ever knowing it.<br>
@@ -67,22 +67,22 @@
             <li>3 - Make sure <strong>Allow downloads from other PCs</strong> is turned <strong>Off</strong>. You'll get updates and apps directly from Windows Update and from Microsoft Store with Delivery Optimization; however, you won’t download from or upload to other PCs.</li>
         </ul>
         </p>
-        <h3 class="title_desc">3 - Your data can be shared</h3>
+        <h3 class="title_desc" id="data_sharing">3 - Your data can be shared</h3>
         <p class="desc_article">When downloading Windows 10, you are authorizing Microsoft to share any of above-mentioned data with any third-party, with or without your consent.<br>
         Your system automatically syncs setting, services and data to Microsoft server, the data which is synced contains your browser history, the websites you are currently on, the saved apps, mobile and hotspot passwords along with Wifi SSID and passwords
         </p>
 
-        <h3 class="title_desc">4 - Will continue to send information to Microsoft after you disable data-sharing settings</h3>
+        <h3 class="title_desc" id="sharing_disable">4 - Will continue to send information to Microsoft after you disable data-sharing settings</h3>
         <p class="desc_article">
         If you went to all privacy pages and shut off all data sharing, you'll still share information with Microsoft. <br><br>
         For example, even with Cortana and searching the Web from the Start menu disabled, opening Start and typing will send a request to www.bing.com to request a file called threshold.appcache which appears to contain some Cortana information, even though Cortana is disabled. 
         The request for this file appears to contain a random machine ID that persists across reboots.
         </p>
-        <h3 class="title_desc">5 - Search for illegal games</h3>
+        <h3 class="title_desc" id="illegal_games">5 - Search for illegal games</h3>
         <p class="desc_article">The Windows 10 license agreement everyone agrees to (without reading) includes language that seems to allow the company to scan your computer for pirated games and disable them at will.<br>
         <br>"We may automatically check your version of the software and download software updates or configuration changes, including those that prevent you from accessing the Services, playing counterfeit games, or using unauthorized hardware peripheral devices." </p>
         
-        <h3 class="title_desc">6 -  How to protect yourself ?</h3>
+        <h3 class="title_desc" id="protect">6 -  How to protect yourself ?</h3>
         <p class="desc_article">
         You can use as many tools and disable as many options as you want Windows 10 will always spy on you. The best way to avoid this is not to use Windows 10.<br>
         But there are some tools you can use to limit that tracking and telemetry.
@@ -97,7 +97,7 @@
         <small class="subtitle_os">check the options of your choice based on your preferences</small>
         After this, the number was reduced to <code>2758 connections to 30 different IP addresses</code> in the period of 30 hours.
         </p>
-        <h4><strong>Overview of Windows 10 Privacy Tools :</strong></h4>
+        <h4 id="tools"><strong>Overview of Windows 10 Privacy Tools :</strong></h4>
         <br>
         <table class="table_os">
             <tbody>
