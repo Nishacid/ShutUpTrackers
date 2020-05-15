@@ -138,6 +138,7 @@
                 <a>Our Services <i class="fas fa-sort-down "></i></a>
                 <div class="dropdown-content ">
                     <a href="https://search.shutuptrackers.com/">Search Engine</a>
+                    <a href="https://git.shutuptrackers.com/">Gitea</a>
                 </div>
             </div>
         </nav>
