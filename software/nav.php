@@ -34,7 +34,7 @@
                     <a href="../provider/dns.php"><i class="fas fa-list-ul" style="padding-right: 5px;"></i>DNS</a>
                     <a href="../provider/search.php"><i class="fas fa-search" style="padding-right: 5px;"></i>Search</a>
                     <a href="../provider/cloud.php"><i class="fas fa-cloud" style="padding-right: 5px;"></i>Cloud Storage</a>
-                    <a href="../prodiver/social.php"><i class="fas fa-share-alt" style="padding-right: 5px;"></i>Social Networks</a>
+                    <a href="../provider/social.php"><i class="fas fa-share-alt" style="padding-right: 5px;"></i>Social Networks</a>
                     <a href="../provider/pastebin.php"><i class="fas fa-paste" style="padding-right: 5px;"></i>Pastebins</a>
                     <a href="../provider/file_sharing.php"><i class="fas fa-share" style="padding-right: 5px;"></i>File Sharing</a>
                     <a href="../provider/multimedia.php"><i class="fas fa-image" style="padding-right: 5px;"></i>Multimedia</a>
@@ -66,6 +66,7 @@
                 <div class="dropdown-content">
                     <a href="https://search.shutuptrackers.com/"><i class="fas fa-search" style="padding-right: 5px;"></i>Search Engine</a>
                     <a href="https://git.shutuptrackers.com/"><i class="fab fa-git-alt" style="padding-right: 5px;"></i>Gitea</a>
+                    <a href="https://note.shutuptrackers.com/"><i class="fas fa-sticky-note" style="padding-right: 5px;"></i>Private Note</a>
                 </div>
             </div>
         </nav>
@@ -139,6 +140,7 @@
                 <div class="dropdown-content ">
                     <a href="https://search.shutuptrackers.com/">Search Engine</a>
                     <a href="https://git.shutuptrackers.com/">Gitea</a>
+                    <a href="https://note.shutuptrackers.com/">Private Note</a>
                 </div>
             </div>
         </nav>

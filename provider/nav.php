@@ -65,6 +65,7 @@
                 <div class="dropdown-content">
                     <a href="https://search.shutuptrackers.com/"><i class="fas fa-search" style="padding-right: 5px;"></i>Search Engine</a>
                     <a href="https://git.shutuptrackers.com/"><i class="fab fa-git-alt" style="padding-right: 5px;"></i>Gitea</a>
+                    <a href="https://note.shutuptrackers.com/"><i class="fas fa-sticky-note" style="padding-right: 5px;"></i>Private Note</a>
                 </div>
             </div>
         </nav>
@@ -138,6 +139,7 @@
                 <div class="dropdown-content ">
                     <a href="https://search.shutuptrackers.com/">Search Engine</a>
                     <a href="https://git.shutuptrackers.com/">Gitea</a>
+                    <a href="https://note.shutuptrackers.com/">Private Note</a>
                 </div>
             </div>
         </nav>
