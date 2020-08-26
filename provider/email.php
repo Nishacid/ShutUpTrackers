@@ -82,7 +82,7 @@
             <div class="produit">
                 <a href="https://lavabit.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/lavabit.png" alt="lavabit">
+                    <img src="../img/Provider/lavabit.png" alt="lavabit">
                 </div>
                 <div class="text">
                     <h2><strong>Lavabit</strong></h2>

@@ -111,7 +111,7 @@
                     <a href="provider/cloud.php">Cloud Storage</a>
                     <a href="provider/social.php">Social Networks</a>
                     <a href="provider/file_sharing.php">File Sharing</a>
-                    <a href="provider/multimedia.php">File Sharing</a>
+                    <a href="provider/multimedia.php">Multimedia</a>
                 </div>
             </div>
             <div class="dropdown ">
