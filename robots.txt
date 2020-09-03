@@ -1,0 +1,3 @@
+# A robots.txt a day keeps the robots away.
+User-agent: *
+Disallow: /
