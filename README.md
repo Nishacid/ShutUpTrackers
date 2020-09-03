@@ -6,6 +6,7 @@
         <em>Protection against mass surveillance and spying.</em>
 </p>
 </div>
+
 ShutUpTrackers is a socially motivated website that provides information for protecting your data security and privacy  
 ## 🛠️ Support  
  - [Donate](https://shutuptrackers.com/donate.php) ❤️  
