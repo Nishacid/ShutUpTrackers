@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="0x66">
+    <meta name="author" content="Nishacid">
     <meta name="description" content="Protection against mass surveillance and spying">
     <title>ShutUpTrackers</title>
     <!-- extern imports -->
@@ -35,13 +35,13 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="img/Thanks/0x66.png" alt="0x66">
+            <img src="img/Thanks/Nishacid.png" alt="Nishacid">
         </div>
-          <h2 class="card_title">0x66</h2>
+          <h2 class="card_title">Nishacid</h2>
           <p class="card_text">Founder and Admin</p>
           <div class="icons">
-          <a href="https://twitter.com/00x666"><i class="fab fa-twitter"></i></a>
-          <a href="mailto:0xx66@protonmail.com"><i class="fas fa-envelope-open"></i></a>
+          <a href="https://twitter.com/Nishacid"><i class="fab fa-twitter"></i></a>
+          <a href="mailto:Nishacid@protonmail.com"><i class="fas fa-envelope-open"></i></a>
           </div>
         </div>
       </div>
@@ -56,22 +56,6 @@
           <p class="card_text">Frontend Developer and Web Designer</p>
           <div class="icons">
           <a href="#" class="discord"><i class="fab fa-discord"></i> Ender'#2062</a>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-    <div class="card">
-        <div class="card_content">
-        <div class="circle">
-            <img src="img/Thanks/thoughtless.jpeg" alt="contributor">
-        </div>
-          <h2 class="card_title">Thoughtless.eu</h2>
-          <p class="card_text">Sysadmin</p>
-          <div class="icons">
-          <a href="https://twitter.com/TheBidouilleur"><i class="fab fa-twitter"></i></a>
-          <a href="mailto:cinabre@thoughtless.eu"><i class="fas fa-envelope-open"></i></a>
-          <a href="https://thoughtless.eu/"><i class="fas fa-link"></i></a>
           </div>
         </div>
       </div>
