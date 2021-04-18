@@ -9,8 +9,8 @@
     <meta name="description" content="Protection against mass surveillance and spying">
     <title>ShutUpTrackers</title>
     <!-- extern imports -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
     <!-- general imports -->
     <link rel="stylesheet" href="css/body-style.css">
     <link rel="stylesheet" href="css/style.css">
