@@ -9,11 +9,11 @@
     <meta name="description" content="Protection against mass surveillance and spying">
     <title>ShutUpTrackers</title>
     <!-- extern imports -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- general imports -->
-    <link rel="stylesheet" href="../css/body-style.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/software-cards.css">
-    <link rel="icon" href="../img/favicon.png"> 
+    <link rel="stylesheet" href="/assets/css/body-style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/software-cards.css">
+    <link rel="icon" href="/assets/img/favicon.png"> 
 </head>

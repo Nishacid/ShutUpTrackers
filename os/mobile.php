@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/ubuntutouch.png" alt="UbuntuTouch">
+            <img src="/assets/img/OS/ubuntutouch.png" alt="UbuntuTouch">
         </div>
           <h2 class="card_title">UBUNTU TOUCH</h2>
           <p class="card_text">Ubuntu Touch is made and maintained by UBports. It is a free and open source mobile OS. Meanwhile they care about your privacy and freedom.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/GrapheneOS.png" alt="GrapheneOS" style="width: 100px;">
+            <img src="/assets/img/OS/GrapheneOS.png" alt="GrapheneOS" style="width: 100px;">
         </div>
           <h2 class="card_title">GRAPHENEOS</h2>
           <p class="card_text">GrapheneOS (formerly known as CopperheadOS) is a free and open-source security and privacy focused mobile operating system built on top of the Android Open Source Project.</p>
@@ -42,7 +42,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/lineageos.png" alt="LineageOS">
+            <img src="/assets/img/OS/lineageos.png" alt="LineageOS">
         </div>
           <h2 class="card_title">LINEAGEOS</h2>
           <p class="card_text">A free and open-source operating system for various devices, based on the Android mobile platform.</p>
@@ -52,10 +52,10 @@
     </li>
     </ul>
 </div>  
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

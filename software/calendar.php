@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/nextcloud.png" alt="NextCloud" style="width: 60px;">
+            <img src="/assets/img/Software/nextcloud.png" alt="NextCloud" style="width: 60px;">
         </div>
           <h2 class="card_title">NEXTCLOUD</h2>
           <p class="card_text">Nextcloud is a suite of client-server software for creating and using file hosting services. This includes calendar sync via CalDAV and contacts sync via CardDAV. Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server.</p>
@@ -29,7 +29,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/etesync.png" alt="EteSync">
+            <img src="/assets/img/Software/etesync.png" alt="EteSync">
         </div>
           <h2 class="card_title">ETESYNC</h2>
           <p class="card_text">Secure, end-to-end encrypted, and privacy respecting sync for your contacts, calendars and tasks. EteSync provides you with strong assurances of privacy and safety for your personal information, more control of your data, and a full history of all the changes made to it.</p>
@@ -41,7 +41,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/protoncalendar.png" alt="ProtonCalendar" style="height:85%;">
+            <img src="/assets/img/Software/protoncalendar.png" alt="ProtonCalendar" style="height:85%;">
         </div>
           <h2 class="card_title">ProtonCalendar</h2>
           <p class="card_text">ProtonCalendar is the first fully encrypted calendar app. You can use it to keep track of your plans and appointments while keeping your data private. ProtonCalendar is only available for members who paid protonmail.</p>
@@ -52,10 +52,10 @@
     </ul>
 </div>
         
-  <?php require('../inc/contact.php'); ?>
-  <?php require('../inc/footer.php'); ?>
+  <?php require('/shutuptrackers/inc/contact.php'); ?>
+  <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

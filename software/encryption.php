@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/veracrypt.png" alt="VeraCrypt">
+            <img src="/assets/img/Software/veracrypt.png" alt="VeraCrypt">
         </div>
           <h2 class="card_title">VERACRYPT</h2>
           <p class="card_text">VeraCrypt is free open-source disk encryption software for Windows, Mac OS X and Linux.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/GNU.png" alt="GNU">
+            <img src="/assets/img/Software/GNU.png" alt="GNU">
         </div>
           <h2 class="card_title">GNU PRIVACY GUARD</h2>
           <p class="card_text">GnuPG is a complete and free implementation of the OpenPGP standard. GnuPG allows you to encrypt and sign your data and communications.</p>
@@ -42,7 +42,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/Peazip.png" alt="Peazip">
+            <img src="/assets/img/Software/Peazip.png" alt="Peazip">
         </div>
           <h2 class="card_title">PeaZip</h2>
           <p class="card_text">PeaZip is a free and open-source file manager and file archiver for Microsoft Windows, Linux and BSD.</p>
@@ -52,9 +52,9 @@
     </li>
     </ul>
 </div>                      
-  <?php require('../inc/contact.php'); ?>  
-  <?php require('../inc/footer.php'); ?>
-        <script src="../js/main.js"></script>
+  <?php require('/shutuptrackers/inc/contact.php'); ?>  
+  <?php require('/shutuptrackers/inc/footer.php'); ?>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

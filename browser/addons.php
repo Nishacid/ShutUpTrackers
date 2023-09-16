@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://noscript.net/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/noscript.png" alt="noscript">
+                    <img src="/assets/img/Browser/noscript.png" alt="noscript">
                 </div>
                 <div class="text">
                     <h2><strong>NoScript</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://www.eff.org/privacybadger" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/privacybadger.png" alt="privacybadger">
+                    <img src="/assets/img/Browser/privacybadger.png" alt="privacybadger">
                 </div>
                 <div class="text">
                     <h2><strong>Privacy Badger</strong></h2>
@@ -43,7 +43,7 @@
             <div class="produit">
                 <a href="https://www.eff.org/https-everywhere" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/https.png" alt="https everywhere">
+                    <img src="/assets/img/Browser/https.png" alt="https everywhere">
                 </div>
                 <div class="text">
                     <h2><strong>HTTPS Everywhere</strong></h2>
@@ -56,7 +56,7 @@
             <div class="produit">
                 <a href="https://decentraleyes.org/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/decentraleyes.png" alt="Decentraleyes">
+                    <img src="/assets/img/Browser/decentraleyes.png" alt="Decentraleyes">
                 </div>
                 <div class="text">
                     <h2><strong>Decentraleyes</strong></h2>
@@ -69,7 +69,7 @@
             <div class="produit">
                 <a href="https://disconnect.me/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/disconnectme.png" alt="Disconnect.Me">
+                    <img src="/assets/img/Browser/disconnectme.png" alt="Disconnect.Me">
                 </div>
                 <div class="text">
                     <h2><strong>Disconnect</strong></h2>
@@ -82,7 +82,7 @@
             <div class="produit">
                 <a href="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/cookie.png" alt="cookie auto delete">
+                    <img src="/assets/img/Browser/cookie.png" alt="cookie auto delete">
                 </div>
                 <div class="text">
                     <h2><strong>Cookie AutoDelete</strong></h2>
@@ -95,7 +95,7 @@
             <div class="produit">
                 <a href="https://ublock.org/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Browser/ublock.png" alt="ublock">
+                    <img src="/assets/img/Browser/ublock.png" alt="ublock">
                 </div>
                 <div class="text">
                     <h2><strong>Ublock</strong></h2>
@@ -104,10 +104,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

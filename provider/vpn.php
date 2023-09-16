@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://mullvad.net/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/mullvad.png" alt="mullvad">
+                    <img src="/assets/img/Provider/mullvad.png" alt="mullvad">
                 </div>
                 <div class="text">
                     <h2><strong>MullVad</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://protonvpn.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/proton.png" alt="protonvpn">
+                    <img src="/assets/img/Provider/proton.png" alt="protonvpn">
                 </div>
                 <div class="text">
                     <h2><strong>ProtonVPN</strong></h2>
@@ -43,7 +43,7 @@
             <div class="produit">
                 <a href="https://www.ivpn.net/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/ivpn.png" alt="ivpn">
+                    <img src="/assets/img/Provider/ivpn.png" alt="ivpn">
                 </div>
                 <div class="text">
                     <h2><strong>IVPN</strong></h2>
@@ -52,10 +52,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
         
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

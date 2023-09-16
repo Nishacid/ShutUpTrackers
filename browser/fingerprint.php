@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -56,10 +56,10 @@
                 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/chameleon-ext/" target="_blank">Chameleon</a> - Spoof your browser profile. Includes a few privacy enhancing options.</li>
             </ul>
             <p class="desc_article">Don't forget to check our <a href="addons.php">Add-ons</a> recommandations and our <a href="tweaks.php">Firefox Tweaks</a>.</p>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://njal.la/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/njalla.jpg" alt="Njalla">
+                    <img src="/assets/img/Provider/njalla.jpg" alt="Njalla">
                 </div>
                 <div class="text">
                     <h2><strong>Njalla</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://dnscrypt.info/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/dnscrypt.png" alt="DNSCrypt">
+                    <img src="/assets/img/Provider/dnscrypt.png" alt="DNSCrypt">
                 </div>
                 <div class="text">
                     <h2><strong>DNSCrypt</strong></h2>
@@ -39,10 +39,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

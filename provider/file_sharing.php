@@ -1,7 +1,7 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
             <div class="produit">
                 <a href="https://send.firefox.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/send_firefox.png" alt="send.firefox">
+                    <img src="/assets/img/Provider/send_firefox.png" alt="send.firefox">
                 </div>
                 <div class="text">
                     <h2><strong>Send.Firefox</strong></h2>
@@ -31,7 +31,7 @@
             <div class="produit">
                 <a href="https://anonfile.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/anonfile.png" alt="anonfile">
+                    <img src="/assets/img/Provider/anonfile.png" alt="anonfile">
                 </div>
                 <div class="text">
                     <h2><strong>Anonfile</strong></h2>
@@ -44,7 +44,7 @@
             <div class="produit">
                 <a href="https://onionshare.org/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/onionshare.png" alt="onionshare">
+                    <img src="/assets/img/Provider/onionshare.png" alt="onionshare">
                 </div>
                 <div class="text">
                     <h2><strong>Onionshare</strong></h2>
@@ -53,10 +53,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

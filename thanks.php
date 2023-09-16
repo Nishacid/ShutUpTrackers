@@ -9,13 +9,13 @@
     <meta name="description" content="Protection against mass surveillance and spying">
     <title>ShutUpTrackers</title>
     <!-- extern imports -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- general imports -->
-    <link rel="stylesheet" href="css/body-style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/software-cards.css">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="/assets/css/body-style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/software-cards.css">
+    <link rel="icon" href="/assets/img/favicon.png">
 </head>
 <body>
 <?php require('inc/nav.php'); ?>
@@ -35,7 +35,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="img/Thanks/Nishacid.png" alt="Nishacid">
+            <img src="/assets/img/Thanks/Nishacid.png" alt="Nishacid">
         </div>
           <h2 class="card_title">Nishacid</h2>
           <p class="card_text">Founder and Admin</p>
@@ -50,7 +50,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="img/Thanks/ender.png" alt="ender">
+            <img src="/assets/img/Thanks/ender.png" alt="ender">
         </div>
           <h2 class="card_title">Ender</h2>
           <p class="card_text">Frontend Developer and Web Designer</p>
@@ -64,7 +64,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="img/Thanks/mika.jpg" alt="mika">
+            <img src="/assets/img/Thanks/mika.jpg" alt="mika">
         </div>
           <h2 class="card_title">Mika</h2>
           <p class="card_text">Sysadmin</p>
@@ -79,28 +79,12 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="img/Thanks/rashka.webp" alt="rashka">
+            <img src="/assets/img/Thanks/rashka.webp" alt="rashka">
         </div>
           <h2 class="card_title">Rashka</h2>
           <p class="card_text">Graphic designer</p>
           <div class="icons">
           <a href="mailto:rashka.ih@gmail.com"><i class="fas fa-envelope-open"></i></a>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-    <div class="card">
-        <div class="card_content">
-        <div class="circle">
-            <img src="img/Thanks/eban.svg" alt="eban">
-        </div>
-          <h2 class="card_title">Eban</h2>
-          <p class="card_text">Frontend Developer</p>
-          <div class="icons">
-          <a href="https://twitter.com/eban_non"><i class="fab fa-twitter"></i></a>
-          <a href="mailto:ebandev@protonmail.com"><i class="fas fa-envelope-open"></i></a>
-          <a href="https://eban.ga/"><i class="fas fa-link"></i></a>
           </div>
         </div>
       </div>
@@ -111,9 +95,9 @@
   <?php require('inc/contact.php'); ?>
   <footer>
     Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
-    <small><a href="./thanks.php" class="thanks">Thanks page</a> / <a href="./LICENCE.txt" class="thanks">Licence</a></small>
+    <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>
     </footer>
-        <script src="./js/main.js"></script>
+        <script src=/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/qubesos.png" alt="QubesOS" style="width: 110px;">
+            <img src="/assets/img/OS/qubesos.png" alt="QubesOS" style="width: 110px;">
         </div>
           <h2 class="card_title">QUBES OS</h2>
           <p class="card_text">Qubes is an open-source operating system designed to provide strong security for desktop computing.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/fedora.png" alt="Fedora">
+            <img src="/assets/img/OS/fedora.png" alt="Fedora">
         </div>
           <h2 class="card_title">FEDORA</h2>
           <p class="card_text">Fedora is a Linux distribution developed by the Fedora Project and sponsored by Red Hat. Fedora Workstation is a secure, reliable, and user-friendly.</p>
@@ -40,9 +40,9 @@
     </li>
     </ul>
 </div>                   
-  <?php require('../inc/contact.php'); ?>
-  <?php require('../inc/footer.php'); ?>
-        <script src="../js/main.js"></script>
+  <?php require('/shutuptrackers/inc/contact.php'); ?>
+  <?php require('/shutuptrackers/inc/footer.php'); ?>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

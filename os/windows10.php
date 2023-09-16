@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -93,7 +93,7 @@
         If you leave your machine for 8 hours, inactive Windows 10 will send more than <code>5,500 connections to 93 different IP addresses</code>, including nearly <code> 4,000 to 51 different IP addresses </code> belonging to Microsoft.<br>
 
         If you leave the machine for 30 hours, Windows 10 has extended this connection to <code>113 non-private IP addresses</code>, potentially allowing hackers to intercept this data.<br>
-        <a href="../img/OS/disablewintracking.png"><img src="../img/OS/disablewintracking.png" alt="disablewintracking" class="img_tweaks"></a><br>
+        <a href="/assets/img/OS/disablewintracking.png"><img src="/assets/img/OS/disablewintracking.png" alt="disablewintracking" class="img_tweaks"></a><br>
         <small class="subtitle_os">check the options of your choice based on your preferences</small>
         After this, the number was reduced to <code>2758 connections to 30 different IP addresses</code> in the period of 30 hours.
         </p>
@@ -183,10 +183,10 @@
             </tr>
             </tbody>
         </table>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

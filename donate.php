@@ -9,12 +9,12 @@
     <meta name="description" content="Protection against mass surveillance and spying">
     <title>ShutUpTrackers</title>
     <!-- extern imports -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- general imports -->
-    <link rel="stylesheet" href="css/body-style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/favicon.png"> 
+    <link rel="stylesheet" href="/assets/css/body-style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/img/favicon.png"> 
 </head>
 <body>
     <?php require('inc/nav.php');?>
@@ -29,7 +29,7 @@
             <div class="link-content">
                 <div class="links">
                     <div class="img">
-                        <img src="img/Donate/patreon.png" alt="Patreon">
+                        <img src="/assets/img/Donate/patreon.png" alt="Patreon">
                     </div>
                     <div class="text">
                         <h2>Patreon</h2><br>
@@ -43,7 +43,7 @@
         <div class="link-content">
             <div class="link">
                 <div class="img">
-                    <img src="img/Donate/crypto.png" alt="Crypto">
+                    <img src="/assets/img/Donate/crypto.png" alt="Crypto">
                 </div>
                 <div class="text">
                     <h2>Cryptocurrencies</h2><br>
@@ -65,7 +65,7 @@
             <div class="link-content">
                 <div class="links">
                     <div class="img">
-                        <img src="img/Donate/liberapay.png" alt="Liberapay">
+                        <img src="/assets/img/Donate/liberapay.png" alt="Liberapay">
                     </div>
                     <div class="text">
                         <h2>Liberapay</h2><br>
@@ -78,13 +78,13 @@
     </div>
 
 
-<?php require('./inc/contact.php'); ?>
+<?php require('/shutuptrackers/inc/contact.php'); ?>
 <footer>
     Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
-    <small><a href="./thanks.php" class="thanks">Thanks page</a> / <a href="./LICENCE.txt" class="thanks">Licence</a></small>
+    <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>
 </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

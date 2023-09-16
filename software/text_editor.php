@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/vscodium.png" alt="Vscodium" style="width:80%;">
+            <img src="/assets/img/Software/vscodium.png" alt="Vscodium" style="width:80%;">
         </div>
           <h2 class="card_title">VSCodium</h2>
           <p class="card_text">Free/Libre Open Source Software Binaries of VSCode. VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VSCode</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/atom.png" alt="atom" style="width:80%;">
+            <img src="/assets/img/Software/atom.png" alt="atom" style="width:80%;">
         </div>
           <h2 class="card_title">Atom</h2>
           <p class="card_text">
@@ -41,10 +41,10 @@
     </li>
     </ul>
 </div>
-    <?php require('../inc/contact.php'); ?>
-    <?php require('../inc/footer.php'); ?>
+    <?php require('/shutuptrackers/inc/contact.php'); ?>
+    <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/Bitmessage.png" alt="Bitmessage">
+            <img src="/assets/img/Software/Bitmessage.png" alt="Bitmessage">
         </div>
           <h2 class="card_title">BITMESSAGE</h2>
           <p class="card_text">Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers. It is decentralized and trustless, meaning that you need-not inherently trust any entities like root certificate authorities.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/retroshare.png" alt="RetroShare" style="width:50px;">
+            <img src="/assets/img/Software/retroshare.png" alt="RetroShare" style="width:50px;">
         </div>
           <h2 class="card_title">RETROSHARE</h2>
           <p class="card_text">Retroshare is a private peer-to-peer free software that creates an acentric computer network. It allows: peer-to-peer file sharing, serverless email, instant messaging, chat rooms, forums.</p>
@@ -40,10 +40,10 @@
     </li>
     </ul>
 </div>
-  <?php require('../inc/contact.php'); ?>
-  <?php require('../inc/footer.php'); ?>
+  <?php require('/shutuptrackers/inc/contact.php'); ?>
+  <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

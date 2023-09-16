@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://www.qwant.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/qwant.png" alt="Qwant">
+                    <img src="/assets/img/Provider/qwant.png" alt="Qwant">
                 </div>
                 <div class="text">
                     <h2><strong>Qwant</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://duckduckgo.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/duckduckgo.png" alt="DuckDuckGo">
+                    <img src="/assets/img/Provider/duckduckgo.png" alt="DuckDuckGo">
                 </div>
                 <div class="text">
                     <h2><strong>DuckDuckgo</strong></h2>
@@ -43,7 +43,7 @@
             <div class="produit">
                 <a href="https://searx.me/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/searx.png" alt="Searx">
+                    <img src="/assets/img/Provider/searx.png" alt="Searx">
                 </div>
                 <div class="text">
                     <h2><strong>Searx</strong></h2>
@@ -56,7 +56,7 @@
             <div class="produit">
                 <a href="https://www.startpage.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/StartPage.png" alt="StartPage">
+                    <img src="/assets/img/Provider/StartPage.png" alt="StartPage">
                 </div>
                 <div class="text">
                     <h2><strong>StartPage</strong></h2>
@@ -65,10 +65,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

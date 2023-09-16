@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://trezor.io/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/trezor.png" alt="trezor">
+                    <img src="/assets/img/Hardware/trezor.png" alt="trezor">
                 </div>
                 <div class="text">
                     <h2><strong>Trezor</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://www.ledger.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/ledger.png" alt="ledger">
+                    <img src="/assets/img/Hardware/ledger.png" alt="ledger">
                 </div>
                 <div class="text">
                     <h2><strong>Ledger</strong></h2>
@@ -39,10 +39,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://puri.sm/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/purism.png" alt="puri.sm">
+                    <img src="/assets/img/Hardware/purism.png" alt="puri.sm">
                 </div>
                 <div class="text">
                     <h2><strong>Puri.sm</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://www.thinkpenguin.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/thinkpenguin.png" alt="thinkpenguin">
+                    <img src="/assets/img/Hardware/thinkpenguin.png" alt="thinkpenguin">
                 </div>
                 <div class="text">
                     <h2><strong>ThinkPenguin</strong></h2>
@@ -43,7 +43,7 @@
             <div class="produit">
                 <a href="https://store.vikings.net/libre-friendly-hardware" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/vikings.svg" alt="vikings">
+                    <img src="/assets/img/Hardware/vikings.svg" alt="vikings">
                 </div>
                 <div class="text">
                     <h2><strong>Vikings</strong></h2>
@@ -56,7 +56,7 @@
             <div class="produit">
                 <a href="https://tehnoetic.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/techno.png" alt="Technoethical">
+                    <img src="/assets/img/Hardware/techno.png" alt="Technoethical">
                 </div>
                 <div class="text">
                     <h2><strong>Technoethical</strong></h2>
@@ -69,7 +69,7 @@
             <div class="produit">
                 <a href="https://www.raptorcs.com/TALOSII/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Hardware/talos.png" alt="Talos II">
+                    <img src="/assets/img/Hardware/talos.png" alt="Talos II">
                 </div>
                 <div class="text">
                     <h2><strong>Talos II</strong></h2>
@@ -78,10 +78,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

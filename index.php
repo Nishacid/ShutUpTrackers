@@ -9,17 +9,17 @@
     <meta name="description" content="Protection against mass surveillance and spying">
     <title>ShutUpTrackers</title>
     <!-- extern imports -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <!-- general imports -->
-    <link rel="stylesheet" href="css/body-style.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/favicon.png"> 
+    <link rel="stylesheet" href="/assets/css/body-style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/img/favicon.png"> 
 </head>
 
 <body>
     <?php 
-        require('inc/nav.php');
+        require('/shutuptrackers/inc/nav.php');
     ?>
     </div>
     <div class="main ">
@@ -56,7 +56,7 @@
             
             <div class="cercle "></div>
         </div>
-        <?php require('inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
         <div class="ressource ">
             <h3>Tools</h3>
             <ul>
@@ -87,19 +87,19 @@
                 <div class="brand">
                     <a href="https://brainshell.fr" target="_blank" class="title_partners"><h4>Brainshell.fr</h4></a>
                     <small>BrainShell is a french platform that allows you to test your IT security skills.</small><br>
-                    <img src="img/Partners/brainshell.png" alt="Brainshell" class="img_partners">
+                    <img src="/assets/img/Partners/brainshell.png" alt="Brainshell" class="img_partners">
                 </div>
             </div>
         </div>
         <footer>
         Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
-            <small><a href="./thanks.php" class="thanks">Thanks page</a> / <a href="./LICENCE.txt" class="thanks">Licence</a></small>
+            <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>
             
         </footer>
     </div>
 
 
-    <script src="js/main.js "></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

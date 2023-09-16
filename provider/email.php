@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="http://protonmail.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/protonmail.svg" alt="protonmail">
+                    <img src="/assets/img/Provider/protonmail.svg" alt="protonmail">
                 </div>
                 <div class="text">
                     <h2><strong>Protonmail</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://tutanota.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/tutanota.png" alt="tutanota">
+                    <img src="/assets/img/Provider/tutanota.png" alt="tutanota">
                 </div>
                 <div class="text">
                     <h2><strong>Tutanota</strong></h2>
@@ -43,7 +43,7 @@
             <div class="produit">
                 <a href="https://mailfence.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/mailfence.png" alt="mailfence">
+                    <img src="/assets/img/Provider/mailfence.png" alt="mailfence">
                 </div>
                 <div class="text">
                     <h2><strong>Mailfence</strong></h2>
@@ -56,7 +56,7 @@
             <div class="produit">
                 <a href="https://www.startmail.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/startmail.png" alt="startmail">
+                    <img src="/assets/img/Provider/startmail.png" alt="startmail">
                 </div>
                 <div class="text">
                     <h2><strong>Startmail</strong></h2>
@@ -69,7 +69,7 @@
             <div class="produit">
                 <a href="https://disroot.org/services/email" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/disroot.svg" alt="disroot">
+                    <img src="/assets/img/Provider/disroot.svg" alt="disroot">
                 </div>
                 <div class="text">
                     <h2><strong>Disroot</strong></h2>
@@ -82,7 +82,7 @@
             <div class="produit">
                 <a href="https://lavabit.com/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/lavabit.png" alt="lavabit">
+                    <img src="/assets/img/Provider/lavabit.png" alt="lavabit">
                 </div>
                 <div class="text">
                     <h2><strong>Lavabit</strong></h2>
@@ -91,10 +91,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
         
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

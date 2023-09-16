@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -17,7 +17,7 @@
             <div class="produit">
                 <a href="https://joinmastodon.org/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/mastodon.png" alt="Mastodon">
+                    <img src="/assets/img/Provider/mastodon.png" alt="Mastodon">
                 </div>
                 <div class="text">
                     <h2><strong>Mastodon</strong></h2>
@@ -30,7 +30,7 @@
             <div class="produit">
                 <a href="https://diasporafoundation.org/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/diaspora.png" alt="diaspora">
+                    <img src="/assets/img/Provider/diaspora.png" alt="diaspora">
                 </div>
                 <div class="text">
                     <h2><strong>Diaspora*</strong></h2>
@@ -43,7 +43,7 @@
             <div class="produit">
                 <a href="https://gnu.io/social/" target="_blank"><button>Link</button></a>
                 <div class="img">
-                    <img src="../img/Provider/gnusocial.png" alt="GNUsocial ">
+                    <img src="/assets/img/Provider/gnusocial.png" alt="GNUsocial ">
                 </div>
                 <div class="text">
                     <h2><strong>GNU social</strong></h2>
@@ -52,10 +52,10 @@
                 <span></span>
             </div>
         </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

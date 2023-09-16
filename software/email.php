@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/Thunderbird.png" alt="ThunderBird">
+            <img src="/assets/img/Software/Thunderbird.png" alt="ThunderBird">
         </div>
           <h2 class="card_title">THUNDERBIRD</h2>
           <p class="card_text">Thunderbird is a free, open source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by community, previously by the Mozilla Foundation.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/ClawsMail.png" alt="ClawsMail">
+            <img src="/assets/img/Software/ClawsMail.png" alt="ClawsMail">
         </div>
           <h2 class="card_title">CLAWS MAIL</h2>
           <p class="card_text">Claws Mail is a free and open source, GTK-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win.</p>
@@ -40,10 +40,10 @@
     </li>
     </ul>
 </div>       
-    <?php require('../inc/contact.php'); ?>
-    <?php require('../inc/footer.php'); ?>
+    <?php require('/shutuptrackers/inc/contact.php'); ?>
+    <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

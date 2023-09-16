@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -19,20 +19,20 @@
             If you think that strict browsing protection is damaging a website you visit frequently, you can disable it site by site using the shield icon in the address bar.<br>
             Disabling Enhanced Tracking Protection will of course decrease your privacy on that site.
         </p>
-            <a href="../img/Browser/settings.png"><img src="../img/Browser/settings.png" alt="settings" class="img_tweaks"></a><br>
+            <a href="/assets/img/Browser/settings.png"><img src="/assets/img/Browser/settings.png" alt="settings" class="img_tweaks"></a><br>
             <small class="subtitle">Options/Preferences > Privacy & Security > Enhanced Tracking Protection</small>
 
         <h3 class="title_desc" id="search_engine">2 - Change Your Search Engine</h3>
         <p class="desc_article">
         In the Search tab, change your default search engine to something other than Google, Bing, Yahoo ...<br>
-        We offer various alternatives to these <a href="../provider/search.php">search engines here</a>
+        We offer various alternatives to these <a href="/provider/search.php">search engines here</a>
         </p>
         <h3 class="title_desc" id="telemetrics">3 - Disabling Telemetrics</h3>
         <p class="desc_article">
         When you use Firefox, the browser retrieves information about what you are doing, the type of extensions you have installed and many other things from your browser. 
         Although they claim to do so from a privacy perspective, it is always best to send as little data as possible from a privacy perspective, so we will uncheck all boxes under "Firefox data collection and use" for security reasons.
         </p>
-        <a href="../img/Browser/data.png"><img src="../img/Browser/data.png" alt="data" class="img_tweaks"></a><br>
+        <a href="/assets/img/Browser/data.png"><img src="/assets/img/Browser/data.png" alt="data" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Firefox Data Collection and Use</small>
         <h3 class="title_desc" id="cookies">4 - Clearing Cookies and Site Data</h3>
         <p class="desc_article">This one is for more advanced users, so if you don't understand what it does, you can skip this section. 
@@ -40,7 +40,7 @@
             Cookies and site data are small pieces of information that sites store in your browser, and they have a multitude of uses. 
             They are used for things like keeping you logged in and recording your website preferences, but they can also be used to track you on different websites. 
             By regularly deleting your cookies, your browser will appear website specific, making it harder to track you.</p>
-        <a href="../img/Browser/cookies.png"><img src="../img/Browser/cookies.png" alt="cookies" class="img_tweaks"></a><br>
+        <a href="/assets/img/Browser/cookies.png"><img src="/assets/img/Browser/cookies.png" alt="cookies" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Cookies and Site Data</small>
         <h3 class="title_desc" id="doh">5 - DNS over HTTPS</h3>
         <p class="desc_article">
@@ -54,7 +54,7 @@
         Fortunately, Firefox recently added native DoH support to the browser. On the General page of your preferences, scroll down to and open Network Settings. 
         At the bottom of the window you will be able to select "Enable DNS over HTTPS" and choose a provider:
         </p>
-        <a href="../img/Browser/dns.png"><img src="../img/Browser/dns.png" alt="dns" class="img_tweaks"></a><br>
+        <a href="/assets/img/Browser/dns.png"><img src="/assets/img/Browser/dns.png" alt="dns" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Network Settings > Enable DNS over HTTPS</small>
         <p class="desc_article">
         It should also be noted that even with DoH, your ISP will still be able to see what domain you're connecting to because of a technology called Server Name Indication (SNI). 
@@ -68,7 +68,7 @@
         For example, you could have Facebook in a container separate from your other browsing. 
         In this situation, Facebook would only be able to set cookies with your profile on sites within the container, keeping your other browsing protected.
         </p>
-        <a href="../img/Browser/container.png"><img src="../img/Browser/container.png" alt="dns" class="img_tweaks"></a><br>
+        <a href="/assets/img/Browser/container.png"><img src="/assets/img/Browser/container.png" alt="dns" class="img_tweaks"></a><br>
         <h3 class="title_desc" id="about:config">7 - Privacy Related "about:config" Tweaks</h3>
         <p class="desc_article">
             First you need to go to <code>about:config</code> and press "Accept the Risk and Continue".<br><br>
@@ -175,10 +175,10 @@
             <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks user.js</a> - The ghacks user.js is a template which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage.</li>
         </ul>
 
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

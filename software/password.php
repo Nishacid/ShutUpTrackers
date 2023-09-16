@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/keepass.png" alt="Keepass">
+            <img src="/assets/img/Software/keepass.png" alt="Keepass">
         </div>
           <h2 class="card_title">KEEPASSXC</h2>
           <p class="card_text">KeePassXC is a cross-platform, free and open source (FOSS) password manager that allows you to store all of your passphrases in one secure database.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/Bitwarden.png" alt="Bitwarden">
+            <img src="/assets/img/Software/Bitwarden.png" alt="Bitwarden">
         </div>
           <h2 class="card_title">BITWARDEN</h2>
           <p class="card_text">Bitwarden is a freemium and open source password manager under AGPL license, which allows to generate and store passwords in a secure way.</p>
@@ -40,10 +40,10 @@
     </li>
     </ul>
 </div>
-<?php require('../inc/contact.php'); ?>
-<?php require('../inc/footer.php'); ?>
+<?php require('/shutuptrackers/inc/contact.php'); ?>
+<?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

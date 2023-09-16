@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -19,7 +19,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/tails.png" alt="tails" style="width: 120px;">
+            <img src="/assets/img/OS/tails.png" alt="tails" style="width: 120px;">
         </div>
           <h2 class="card_title">TAILS</h2>
           <p class="card_text">Tails is a live operating system, that starts on almost any computer from a DVD, USB stick, or SD card. It aims at preserving privacy and anonymity, and helps to: Use the Internet anonymously and circumvent censorship.</p>
@@ -31,7 +31,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/OS/knoppix.png" alt="knoppix">
+            <img src="/assets/img/OS/knoppix.png" alt="knoppix">
         </div>
           <h2 class="card_title">KNOPPIX</h2>
           <p class="card_text">Knoppix is an operating system based on Debian designed to be run directly from a CD / DVD (Live CD) or a USB flash drive (Live USB), one of the first of its kind for any operating system</p>
@@ -42,10 +42,10 @@
     </ul>
 </div>  
         
-  <?php require('../inc/contact.php'); ?>
-  <?php require('../inc/footer.php'); ?>
+  <?php require('/shutuptrackers/inc/contact.php'); ?>
+  <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

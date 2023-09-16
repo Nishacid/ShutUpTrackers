@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/signal.png" alt="Signal">
+            <img src="/assets/img/Software/signal.png" alt="Signal">
         </div>
           <h2 class="card_title">SIGNAL</h2>
           <p class="card_text">Signal is a mobile app providing instant messaging, as well as voice and video calling. All communications are end-to-end encrypted. Signal is free and open source.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/wickrme.png" alt="WickrMe">
+            <img src="/assets/img/Software/wickrme.png" alt="WickrMe">
         </div>
           <h2 class="card_title">WICKR</h2>
           <p class="card_text">Fully encrypted. Enterprise-ready. Private. Set up in minutes and invite your team to join your private Wickr Network.</p>
@@ -40,10 +40,10 @@
     </li>
     </ul>
 </div>
-    <?php require('../inc/contact.php'); ?>
-    <?php require('../inc/footer.php'); ?>
+    <?php require('/shutuptrackers/inc/contact.php'); ?>
+    <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /
+
 Sitemap: https://shutuptrackers.com/sitemap.xml

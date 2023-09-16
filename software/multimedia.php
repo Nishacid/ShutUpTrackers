@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/vlc.png" alt="VLC" style="width:70%;">
+            <img src="/assets/img/Software/vlc.png" alt="VLC" style="width:70%;">
         </div>
           <h2 class="card_title">VLC</h2>
           <p class="card_text">VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols. Supports a wide range of formats for both local and remote playback.</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/kodi.png" alt="Kodi" style="width:80%;">
+            <img src="/assets/img/Software/kodi.png" alt="Kodi" style="width:80%;">
         </div>
           <h2 class="card_title">Kodi</h2>
           <p class="card_text">
@@ -41,10 +41,10 @@
     </li>
     </ul>
 </div>
-        <?php require('../inc/contact.php'); ?>
-        <?php require('../inc/footer.php'); ?>
+        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

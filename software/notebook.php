@@ -1,6 +1,6 @@
-<?php require('../inc/header.php');?>
+<?php require('/shutuptrackers/inc/header.php');?>
 <body>
-<?php require('nav.php'); ?>
+<?php require('/shutuptrackers/inc/nav.php'); ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -18,7 +18,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/standardnote.png" alt="StandardNotes" style="width:80%;">
+            <img src="/assets/img/Software/standardnote.png" alt="StandardNotes" style="width:80%;">
         </div>
           <h2 class="card_title">Standard Notes</h2>
           <p class="card_text">Standard Notes is a private notes app that features unmatched simplicity, end-to-end encryption, powerful extensions, and open-source applications.Your notes are encrypted and secured so only you can decrypt them. No one but you can read your notes</p>
@@ -30,7 +30,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/joplin.png" alt="Joplin" style="width:80%;">
+            <img src="/assets/img/Software/joplin.png" alt="Joplin" style="width:80%;">
         </div>
           <h2 class="card_title">Joplin</h2>
           <p class="card_text">
@@ -43,7 +43,7 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="../img/Software/cherrytree.png" alt="CherryTree" style="width:80%;">
+            <img src="/assets/img/Software/cherrytree.png" alt="CherryTree" style="width:80%;">
         </div>
           <h2 class="card_title">CherryTree</h2>
           <p class="card_text" style="margin-bottom: 71px;">
@@ -54,10 +54,10 @@
     </li>
     </ul>
 </div>
-    <?php require('../inc/contact.php'); ?>
-    <?php require('../inc/footer.php'); ?>
+    <?php require('/shutuptrackers/inc/contact.php'); ?>
+    <?php require('/shutuptrackers/inc/footer.php'); ?>
 
-        <script src="../js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
