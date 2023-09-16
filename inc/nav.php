@@ -64,7 +64,7 @@
             <div class="dropdown">
                 <a>Our Services <i class="fas fa-sort-down"></i></a>
                 <div class="dropdown-content">
-                    <a href="https://note.shutuptrackers.com/"><i class="fas fa-sticky-note" style="padding-right: 5px;"></i>Private Note</a>
+                    <a href="https://note.shutuptrackers.com/" target="_blank"><i class="fas fa-sticky-note" style="padding-right: 5px;"></i>Private Note</a>
                 </div>
             </div>
         </nav>
@@ -136,7 +136,7 @@
             <div class="dropdown ">
                 <a>Our Services <i class="fas fa-sort-down "></i></a>
                 <div class="dropdown-content ">
-                    <a href="https://note.shutuptrackers.com/">Private Note</a>
+                    <a href="https://note.shutuptrackers.com/" target="_blank">Private Note</a>
                 </div>
             </div>
         </nav>

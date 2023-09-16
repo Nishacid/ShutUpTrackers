@@ -78,19 +78,6 @@
                 <li><a href="https://github.com/Lissy93/personal-security-checklist">Personal Security Checklist</a> - A curated checklist of tips to protect your dgital security and privacy</li>
             </ul>
         </div>
-        <div class="partners">
-            <div class="heading">
-                <h2>Our Partners</h2>
-            </div>
-            <br>
-            <div class="list_partners">
-                <div class="brand">
-                    <a href="https://brainshell.fr" target="_blank" class="title_partners"><h4>Brainshell.fr</h4></a>
-                    <small>BrainShell is a french platform that allows you to test your IT security skills.</small><br>
-                    <img src="/assets/img/Partners/brainshell.png" alt="Brainshell" class="img_partners">
-                </div>
-            </div>
-        </div>
         <footer>
         Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
             <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>
