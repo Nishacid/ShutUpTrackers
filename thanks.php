@@ -64,21 +64,6 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="/assets/img/Thanks/mika.jpg" alt="mika">
-        </div>
-          <h2 class="card_title">Mika</h2>
-          <p class="card_text">Sysadmin</p>
-          <div class="icons">
-          <a href="https://twitter.com/mika_sec"><i class="fab fa-twitter"></i></a>
-          <a href="https://mikadmin.fr/"><i class="fas fa-link"></i></a>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li class="cards_item">
-    <div class="card">
-        <div class="card_content">
-        <div class="circle">
             <img src="/assets/img/Thanks/rashka.webp" alt="rashka">
         </div>
           <h2 class="card_title">Rashka</h2>
