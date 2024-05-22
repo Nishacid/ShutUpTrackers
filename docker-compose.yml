@@ -1,0 +1,57 @@
+services:
+
+# Healthcheck
+  autoheal:
+    image: willfarrell/autoheal
+    restart: unless-stopped
+    container_name: shutuptrackers_autoheal
+    read_only: true
+    environment:
+      - AUTOHEAL_CONTAINER_LABEL=all
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    mem_limit: 2G
+    mem_reservation: 500M
+    cpus: 0.5
+
+# Shutuptrackers 
+  shutuptrackers_nginx:
+    image: nginx:1.25.2
+    container_name: shutuptrackers_nginx
+    volumes:
+      - "./src/:/shutuptrackers/"
+      - "./nginx/shutuptrackers.conf:/etc/nginx/conf.d/default.conf"
+    ports:
+      - "127.0.0.1:8000:80"
+    networks:
+      - internal
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "/bin/sh", "-c", "service nginx status || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    mem_limit: 512m
+    mem_reservation: 128M
+    cpus: 0.5
+
+  shutuptrackers_php:
+    image: php:fpm-alpine
+    container_name: shutuptrackers_php
+    volumes:
+      - "./src/:/shutuptrackers/"
+    networks:
+      - internal
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "/bin/sh", "-c", "pgrep php > /dev/null"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    mem_limit: 512m
+    mem_reservation: 128M
+    cpus: 0.5
+
+networks:
+  internal:
+    driver: bridge
