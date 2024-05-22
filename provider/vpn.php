@@ -1,6 +1,6 @@
-<?php require('/shutuptrackers/inc/header.php');?>
+<?php require __DIR__ . '/../inc/header.php';?>
 <body>
-<?php require('/shutuptrackers/inc/nav.php'); ?>
+<?php require __DIR__ . '/../inc/nav.php'; ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -52,8 +52,8 @@
                 <span></span>
             </div>
         </div>
-        <?php require('/shutuptrackers/inc/contact.php'); ?>
-        <?php require('/shutuptrackers/inc/footer.php'); ?>
+        <?php require __DIR__ . '/../inc/contact.php'; ?>
+        <?php require __DIR__ . '/../inc/footer.php'; ?>
         
         <script src="/assets/js/main.js"></script>
 </body>

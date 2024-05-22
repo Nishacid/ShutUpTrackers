@@ -1,22 +1,23 @@
 <?php
 
-$ip = $_SERVER['REMOTE_ADDR'];
-$user_agent = $_SERVER['HTTP_USER_AGENT'];
+$ip = $_SERVER["REMOTE_ADDR"];
+$user_agent = $_SERVER["HTTP_USER_AGENT"];
 $host = gethostbyaddr($ip);
-$http_accept = $_SERVER['HTTP_ACCEPT'];
-$referer = (!empty($_SERVER['HTTP_REFERER'])) ? $_SERVER['HTTP_REFERER'] : 'Unspecified';
-$http_accept_encoding = $_SERVER['HTTP_ACCEPT_ENCODING'];
-$http_accept_language = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
-$http_host = $_SERVER['HTTP_HOST'];
-if (strlen(strstr($user_agent, 'Firefox')) > 0) {
-    $http_donottrack = $_SERVER['HTTP_DNT'];
+$http_accept = $_SERVER["HTTP_ACCEPT"];
+$referer = !empty($_SERVER["HTTP_REFERER"])
+    ? $_SERVER["HTTP_REFERER"]
+    : "Unspecified";
+$http_accept_encoding = $_SERVER["HTTP_ACCEPT_ENCODING"];
+$http_accept_language = $_SERVER["HTTP_ACCEPT_LANGUAGE"];
+$http_host = $_SERVER["HTTP_HOST"];
+if (strlen(strstr($user_agent, "Firefox")) > 0) {
+    $http_donottrack = $_SERVER["HTTP_DNT"];
 }
-$http_upgrade_insecure_requests = $_SERVER['HTTP_UPGRADE_INSECURE_REQUESTS'];
-$http_request_method = $_SERVER['REQUEST_METHOD'];
-$http_request_scheme = $_SERVER['REQUEST_SCHEME'];
-$http_request_uri = $_SERVER['REQUEST_URI'];
-$https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
-
+$http_upgrade_insecure_requests = $_SERVER["HTTP_UPGRADE_INSECURE_REQUESTS"];
+$http_request_method = $_SERVER["REQUEST_METHOD"];
+$http_request_scheme = $_SERVER["REQUEST_SCHEME"];
+$http_request_uri = $_SERVER["REQUEST_URI"];
+$https = !empty($_SERVER["HTTPS"]) ? $_SERVER["HTTPS"] : "OFF";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -36,7 +37,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
     <link rel="icon" href="/assets/img/favicon.png">
 </head>
 <body>
-    <?php require('/shutuptrackers/inc/nav.php');?>
+    <?php require __DIR__ . "/inc/nav.php"; ?>
     <div class="information"><br>
         <h1>HTTP information</h1><br>
         <div class="table">
@@ -54,7 +55,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     IP
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($ip);?>
+                    <?= htmlspecialchars($ip) ?>
                 </div>
             </div>
 
@@ -63,7 +64,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     HOST
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($host);?>
+                    <?= htmlspecialchars($host) ?>
                 </div>
             </div>
 
@@ -72,7 +73,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     User-Agent
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($user_agent);?>
+                    <?= htmlspecialchars($user_agent) ?>
                 </div>
             </div>
             <div class="row">
@@ -80,7 +81,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Referer
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($referer);?>
+                    <?= htmlspecialchars($referer) ?>
                 </div>
             </div>
             <div class="row">
@@ -88,7 +89,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Accept
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_accept);?>
+                    <?= htmlspecialchars($http_accept) ?>
                 </div>
             </div>
             <div class="row">
@@ -96,7 +97,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Accept Encoding
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_accept_encoding);?>
+                    <?= htmlspecialchars($http_accept_encoding) ?>
                 </div>
             </div>
             <div class="row">
@@ -104,7 +105,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Accept Language
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_accept_language);?>
+                    <?= htmlspecialchars($http_accept_language) ?>
                 </div>
             </div>
             <div class="row">
@@ -112,27 +113,26 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     HTTP Host
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_host);?>
+                    <?= htmlspecialchars($http_host) ?>
                 </div>
             </div>
-            <?php
-                if (strlen(strstr($user_agent, 'Firefox')) > 0) {
-                    echo '<div class="row">
+            <?php if (strlen(strstr($user_agent, "Firefox")) > 0) {
+                echo '<div class="row">
                     <div class="cell" data-title="HTTP Header">
                         DoNotTrack
                     </div>
                     <div class="cell" data-title="Value">' .
-                        htmlspecialchars($http_donottrack) . '
+                    htmlspecialchars($http_donottrack) .
+                    '
                     </div>
                 </div>';
-                }
-            ?>
+            } ?>
             <div class="row">
                 <div class="cell" data-title="HTTP Header">
                     Upgrade Insecure Requests
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_upgrade_insecure_requests);?>
+                    <?= htmlspecialchars($http_upgrade_insecure_requests) ?>
                 </div>
             </div>
             <div class="row">
@@ -140,7 +140,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Request Method
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_request_method);?>
+                    <?= htmlspecialchars($http_request_method) ?>
                 </div>
             </div>
             <div class="row">
@@ -148,7 +148,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Request URI
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($http_request_uri);?>
+                    <?= htmlspecialchars($http_request_uri) ?>
                 </div>
             </div>
             <div class="row">
@@ -156,7 +156,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     HTTPS
                 </div>
                 <div class="cell" data-title="Value">
-                    <?=htmlspecialchars($https);?>
+                    <?= htmlspecialchars($https) ?>
                 </div>
             </div>
         </div>
@@ -251,9 +251,8 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     Javascript Disabled
                 </div>
             </div>
-            <?php
-                if (strlen(strstr($user_agent, 'Firefox')) > 0) {
-                    echo '
+            <?php if (strlen(strstr($user_agent, "Firefox")) > 0) {
+                echo '
                     <div class="row">
                     <div class="cell" data-title="javascript">
                     Do Not Track
@@ -263,7 +262,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
                     </div>
                 </div>
                     ';
-                } ?>
+            } ?>
             <div class="row">
                 <div class="cell" data-title="javascript">
                 Use of local storage
@@ -418,11 +417,11 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
             </div>
             <div class="row">
                 <div class="cell" data-title="javascript">
-                Use of Adblock 
+                Use of Adblock
                 <br><small><strong>grey color if your are use it</strong></small>
                 </div>
                 <div class="cell" data-title="Value" id="adblock">
-                    
+
                 </div>
             </div>
 
@@ -443,7 +442,7 @@ $https = (!empty($_SERVER['HTTPS'])) ? $_SERVER['HTTPS'] : 'OFF';
 
 
 
-    <?php require('/shutuptrackers/inc/contact.php');?>
+    <?php require __DIR__ . "/inc/contact.php"; ?>
     <footer>
     Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
     <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>

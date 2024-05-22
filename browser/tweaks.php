@@ -1,6 +1,6 @@
-<?php require('/shutuptrackers/inc/header.php');?>
+<?php require __DIR__ . "/../inc/header.php"; ?>
 <body>
-<?php require('/shutuptrackers/inc/nav.php'); ?>
+<?php require __DIR__ . "/../inc/nav.php"; ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -13,9 +13,9 @@
         </div>
         <h1 style="font-size: 2.5em;" class="title_pres">Firefox Privacy Settings</h1>
         <h3 class="title_desc" id="tracking_protection">1 - Enhanced Tracking Protection</h3>
-        <p class="desc_article">We will see the largest set of options, the Privacy and Security tab of Firefox. First, enhanced tracking protection. 
+        <p class="desc_article">We will see the largest set of options, the Privacy and Security tab of Firefox. First, enhanced tracking protection.
             This set of filters is set by default to Standard, but we will change it to Strict.<br>
-            Also, in some rare cases, strict protections can cause websites to malfunction. 
+            Also, in some rare cases, strict protections can cause websites to malfunction.
             If you think that strict browsing protection is damaging a website you visit frequently, you can disable it site by site using the shield icon in the address bar.<br>
             Disabling Enhanced Tracking Protection will of course decrease your privacy on that site.
         </p>
@@ -29,43 +29,43 @@
         </p>
         <h3 class="title_desc" id="telemetrics">3 - Disabling Telemetrics</h3>
         <p class="desc_article">
-        When you use Firefox, the browser retrieves information about what you are doing, the type of extensions you have installed and many other things from your browser. 
+        When you use Firefox, the browser retrieves information about what you are doing, the type of extensions you have installed and many other things from your browser.
         Although they claim to do so from a privacy perspective, it is always best to send as little data as possible from a privacy perspective, so we will uncheck all boxes under "Firefox data collection and use" for security reasons.
         </p>
         <a href="/assets/img/Browser/data.png"><img src="/assets/img/Browser/data.png" alt="data" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Firefox Data Collection and Use</small>
         <h3 class="title_desc" id="cookies">4 - Clearing Cookies and Site Data</h3>
-        <p class="desc_article">This one is for more advanced users, so if you don't understand what it does, you can skip this section. 
-            Firefox offers the ability to delete all your cookies and site data every time Firefox is closed. 
-            Cookies and site data are small pieces of information that sites store in your browser, and they have a multitude of uses. 
-            They are used for things like keeping you logged in and recording your website preferences, but they can also be used to track you on different websites. 
+        <p class="desc_article">This one is for more advanced users, so if you don't understand what it does, you can skip this section.
+            Firefox offers the ability to delete all your cookies and site data every time Firefox is closed.
+            Cookies and site data are small pieces of information that sites store in your browser, and they have a multitude of uses.
+            They are used for things like keeping you logged in and recording your website preferences, but they can also be used to track you on different websites.
             By regularly deleting your cookies, your browser will appear website specific, making it harder to track you.</p>
         <a href="/assets/img/Browser/cookies.png"><img src="/assets/img/Browser/cookies.png" alt="cookies" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Cookies and Site Data</small>
         <h3 class="title_desc" id="doh">5 - DNS over HTTPS</h3>
         <p class="desc_article">
-        The DNS (or Domain Name System) is what your browser uses to turn domain names like <code>shutuptrackers.com</code> into IP addresses like <code>185.193.126.127</code>. 
-        Since computers can only communicate with IP addresses, it is necessary to use DNS each time you visit a domain. 
-        But the DNS is unencrypted by default, which means that everyone in your network (including your ISP) can see the domains you are looking for, and in some situations they can even modify IP responses to redirect you to their own websites! 
-        Encrypting your DNS traffic can protect your queries and add extra protection to your browsing. 
+        The DNS (or Domain Name System) is what your browser uses to turn domain names like <code>shutuptrackers.com</code> into IP addresses like <code>185.193.126.127</code>.
+        Since computers can only communicate with IP addresses, it is necessary to use DNS each time you visit a domain.
+        But the DNS is unencrypted by default, which means that everyone in your network (including your ISP) can see the domains you are looking for, and in some situations they can even modify IP responses to redirect you to their own websites!
+        Encrypting your DNS traffic can protect your queries and add extra protection to your browsing.
         <br><br>
-        Encrypted DNS takes many forms: DNS over HTTPS (DoH), DNS over TLS, DNSCrypt, etc., but they all accomplish the same thing. 
-        They keep your DNS queries private from your ISP, and they make sure they aren't tampered with in transit between your DNS provider. 
-        Fortunately, Firefox recently added native DoH support to the browser. On the General page of your preferences, scroll down to and open Network Settings. 
+        Encrypted DNS takes many forms: DNS over HTTPS (DoH), DNS over TLS, DNSCrypt, etc., but they all accomplish the same thing.
+        They keep your DNS queries private from your ISP, and they make sure they aren't tampered with in transit between your DNS provider.
+        Fortunately, Firefox recently added native DoH support to the browser. On the General page of your preferences, scroll down to and open Network Settings.
         At the bottom of the window you will be able to select "Enable DNS over HTTPS" and choose a provider:
         </p>
         <a href="/assets/img/Browser/dns.png"><img src="/assets/img/Browser/dns.png" alt="dns" class="img_tweaks"></a><br>
         <small class="subtitle">Options/Preferences > Privacy & Security > Network Settings > Enable DNS over HTTPS</small>
         <p class="desc_article">
-        It should also be noted that even with DoH, your ISP will still be able to see what domain you're connecting to because of a technology called Server Name Indication (SNI). 
-        Until SNI is encrypted as well, there's no getting around it. 
-        Encrypted SNI (eSNI) is in the works — and can actually be enabled on Firefox today — but it only works with a small number of servers, mainly ones operated by Cloudflare, so its use is limited currently. 
+        It should also be noted that even with DoH, your ISP will still be able to see what domain you're connecting to because of a technology called Server Name Indication (SNI).
+        Until SNI is encrypted as well, there's no getting around it.
+        Encrypted SNI (eSNI) is in the works — and can actually be enabled on Firefox today — but it only works with a small number of servers, mainly ones operated by Cloudflare, so its use is limited currently.
         Therefore, while DoH provides some additional privacy and integrity protections, its use as a privacy tool is limited until other supplemental tools like eSNI and DNSSEC are finalized and implemented.
         </p>
         <h3 class="title_desc" id="container">6 - Multi-Account Containers</h3>
         <p class="desc_article">
-        Mozilla has an in-house add-on called <a href="https://support.mozilla.org/en-US/kb/containers">Multi-Account Containers</a> that allows you to isolate websites from each other. 
-        For example, you could have Facebook in a container separate from your other browsing. 
+        Mozilla has an in-house add-on called <a href="https://support.mozilla.org/en-US/kb/containers">Multi-Account Containers</a> that allows you to isolate websites from each other.
+        For example, you could have Facebook in a container separate from your other browsing.
         In this situation, Facebook would only be able to set cookies with your profile on sites within the container, keeping your other browsing protected.
         </p>
         <a href="/assets/img/Browser/container.png"><img src="/assets/img/Browser/container.png" alt="dns" class="img_tweaks"></a><br>
@@ -78,7 +78,7 @@
 
             <strong>privacy.firstparty.isolate = true</strong><br>
             This preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)<br><br>
-            
+
             <strong>privacy.resistFingerprinting = true</strong><br>
             This preference makes Firefox more resistant to browser fingerprinting.<br><br>
 
@@ -112,7 +112,7 @@
                     <code class="list">0 = Accept all cookies by default</code><br>
                     <code class="list">1 = Only accept from the originating site (block third-party cookies)</code><br>
                     <code class="list">2 = Block all cookies by default</code><br><br>
-            
+
             <strong>network.http.referer.XOriginPolicy = 2</strong><br>
                 Only send Referer header when the full hostnames match. <br>
 
@@ -157,13 +157,13 @@
         </p>
         <h3 class="title_desc" id="webrtc">8 - Disable WebRTC</h3>
         <p class="desc_article">WebRTC is a communication protocol that works with JavaScript that can leak your IP address from behind your VPN.<br><br>
-        
+
         Here are two different ways to disable WebRTC :<br><br>
         - Firstly, the simplest one, you will just have to install this extension named <a href="https://addons.mozilla.org/en-US/firefox/addon/happy-bonobo-disable-webrtc/" target="_blank">Disable WebRTC</a><br><br>
-        
+
         - Another method that requires a little more effort, you need to go to <code>about:config</code> and press "Accept the Risk and Continue".<br>
         Then you have to search for <code>media.peerconnection.enabled</code> and set it to <code>false</code><br>
-        
+
         <br><small class="note">Note: This disables browser-based call functionality that is used for webapps like Discord, etc.</small>
         </p>
 
@@ -175,8 +175,8 @@
             <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks user.js</a> - The ghacks user.js is a template which aims to provide as much privacy and enhanced security as possible, and to reduce tracking and fingerprinting as much as possible - while minimizing any loss of functionality and breakage.</li>
         </ul>
 
-        <?php require('/shutuptrackers/inc/contact.php'); ?>
-        <?php require('/shutuptrackers/inc/footer.php'); ?>
+        <?php require __DIR__ . "/../inc/contact.php"; ?>
+        <?php require __DIR__ . "/../inc/footer.php"; ?>
 
         <script src="/assets/js/main.js"></script>
 </body>

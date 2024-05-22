@@ -1,6 +1,6 @@
-<?php require('/shutuptrackers/inc/header.php');?>
+<?php require __DIR__ . "/../inc/header.php"; ?>
 <body>
-<?php require('/shutuptrackers/inc/nav.php'); ?>
+<?php require __DIR__ . "/../inc/nav.php"; ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -30,19 +30,32 @@
     <div class="card">
         <div class="card_content">
         <div class="circle">
-            <img src="/assets/img/Software/atom.png" alt="atom" style="width:80%;">
+            <img src="/assets/img/Software/zed.webp" alt="Zed" style="width:80%;">
         </div>
-          <h2 class="card_title">Atom</h2>
+          <h2 class="card_title">Zed</h2>
           <p class="card_text">
-          Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for plug-ins written in Node.js, and embedded Git Control, developed by GitHub. Atom is a desktop application built using web technologies.</p>
-          <button class="btn card_btn" onclick="window.location.href = 'https://atom.io'">Read More</button>
+          Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. It's also open source. Currently available on MacOS only.</p>
+          <button class="btn card_btn" onclick="window.location.href = 'https://zed.dev/'">Read More</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+    <div class="card">
+        <div class="card_content">
+        <div class="circle">
+            <img src="/assets/img/Software/lapce.png" alt="lapce" style="width:80%;">
+        </div>
+          <h2 class="card_title">Zed</h2>
+          <p class="card_text">
+          Native GUI and Rust powered performance, we as developers know what you need for an essential tool like a code editor. Write code with joy in Lapce. </p>
+          <button class="btn card_btn" onclick="window.location.href = 'https://lapce.dev/'">Read More</button>
         </div>
       </div>
     </li>
     </ul>
 </div>
-    <?php require('/shutuptrackers/inc/contact.php'); ?>
-    <?php require('/shutuptrackers/inc/footer.php'); ?>
+    <?php require __DIR__ . "/../inc/contact.php"; ?>
+    <?php require __DIR__ . "/../inc/footer.php"; ?>
 
         <script src="/assets/js/main.js"></script>
 </body>

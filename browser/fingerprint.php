@@ -1,6 +1,6 @@
-<?php require('/shutuptrackers/inc/header.php');?>
+<?php require __DIR__ . "/../inc/header.php"; ?>
 <body>
-<?php require('/shutuptrackers/inc/nav.php'); ?>
+<?php require __DIR__ . "/../inc/nav.php"; ?>
         <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -29,7 +29,7 @@
             </p>
             <h3 class="title_desc" id="collected">3 - How is the <strong>Fingerprint</strong> collected ?</h3>
             <p class="desc_article">
-            <strong>Browser fingerprints</strong> are also called <a href="https://sites.cs.ucsb.edu/~vigna/publications/2013_SP_cookieless.pdf" target="_blank">cookieless monsters</a> because it is not necessary to install any form of cookie to collect a <strong>fingerprint</strong>. 
+            <strong>Browser fingerprints</strong> are also called <a href="https://sites.cs.ucsb.edu/~vigna/publications/2013_SP_cookieless.pdf" target="_blank">cookieless monsters</a> because it is not necessary to install any form of cookie to collect a <strong>fingerprint</strong>.
             This means that the act of <strong>fingerprinting</strong> a specific browser is stateless and transparent for the user. <br>Any third-party interested in <strong>fingerprinting</strong> can exploit a set of different techniques to get a rich <strong>fingerprint</strong> :
             </p>
             <ul>
@@ -56,8 +56,8 @@
                 <li><a href="https://addons.mozilla.org/en-US/firefox/addon/chameleon-ext/" target="_blank">Chameleon</a> - Spoof your browser profile. Includes a few privacy enhancing options.</li>
             </ul>
             <p class="desc_article">Don't forget to check our <a href="addons.php">Add-ons</a> recommandations and our <a href="tweaks.php">Firefox Tweaks</a>.</p>
-        <?php require('/shutuptrackers/inc/contact.php'); ?>
-        <?php require('/shutuptrackers/inc/footer.php'); ?>
+        <?php require __DIR__ . "/../inc/contact.php"; ?>
+        <?php require __DIR__ . "/../inc/footer.php"; ?>
 
         <script src="/assets/js/main.js"></script>
 </body>
