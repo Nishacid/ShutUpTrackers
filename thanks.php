@@ -18,7 +18,7 @@
     <link rel="icon" href="/assets/img/favicon.png">
 </head>
 <body>
-<?php require('inc/nav.php'); ?>
+<?php require __DIR__ . "/inc/nav.php"; ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -77,7 +77,7 @@
     </ul>
 </div>
 
-  <?php require('inc/contact.php'); ?>
+  <?php require __DIR__ . "/inc/contact.php"; ?>
   <footer>
     Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
     <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>

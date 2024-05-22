@@ -46,7 +46,7 @@
                     <a href="/os/main.php"><i class="fab fa-linux" style="padding-right: 5px;"></i>Main OS</a>
                     <a href="/os/live.php"><i class="fas fa-compact-disc" style="padding-right: 5px;"></i>Live OS</a>
                     <a href="/os/mobile.php"><i class="fas fa-mobile" style="padding-right: 5px;"></i>Mobile OS</a>
-                    <a href="/os/windows10.php"><i class="fab fa-windows" style="padding-right: 5px;"></i>Windows 10</a>
+                    <a href="/os/windows.php"><i class="fab fa-windows" style="padding-right: 5px;"></i>Windows</a>
                 </div>
             </div>
             <div class="dropdown">

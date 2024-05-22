@@ -14,10 +14,10 @@
     <!-- general imports -->
     <link rel="stylesheet" href="/assets/css/body-style.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="icon" href="/assets/img/favicon.png"> 
+    <link rel="icon" href="/assets/img/favicon.png">
 </head>
 <body>
-    <?php require('inc/nav.php');?>
+    <?php require "inc/nav.php"; ?>
     <div style="height:90px;"></div>
     <div class="heart">
         <i class="fas fa-heart"></i>
@@ -78,7 +78,7 @@
     </div>
 
 
-<?php require('/shutuptrackers/inc/contact.php'); ?>
+<?php require __DIR__ . "/../inc/contact.php"; ?>
 <footer>
     Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
     <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>

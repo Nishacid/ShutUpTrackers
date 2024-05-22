@@ -1,6 +1,6 @@
-<?php require('/shutuptrackers/inc/header.php');?>
+<?php require __DIR__ . "/../inc/header.php"; ?>
 <body>
-<?php require('/shutuptrackers/inc/nav.php'); ?>
+<?php require __DIR__ . "/../inc/nav.php"; ?>
     <div class="description-content">
             <div class="description-produit">
                 <i class="fas fa-shield-alt"></i>
@@ -38,10 +38,22 @@
         </div>
       </div>
     </li>
+    <li class="cards_item">
+    <div class="card">
+        <div class="card_content">
+        <div class="circle">
+            <img src="/assets/img/Software/matrix-logo.svg" alt="Matrix">
+        </div>
+          <h2 class="card_title">Matrix</h2>
+          <p class="card_text">An open network for secure, decentralised communication.</p>
+          <button class="btn card_btn" onclick="window.location.href = 'https://matrix.org/'">Read More</button>
+        </div>
+      </div>
+    </li>
     </ul>
 </div>
-    <?php require('/shutuptrackers/inc/contact.php'); ?>
-    <?php require('/shutuptrackers/inc/footer.php'); ?>
+    <?php require __DIR__ . "/../inc/contact.php"; ?>
+    <?php require __DIR__ . "/../inc/footer.php"; ?>
 
         <script src="/assets/js/main.js"></script>
 </body>

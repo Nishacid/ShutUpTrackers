@@ -14,13 +14,11 @@
     <!-- general imports -->
     <link rel="stylesheet" href="/assets/css/body-style.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="icon" href="/assets/img/favicon.png"> 
+    <link rel="icon" href="/assets/img/favicon.png">
 </head>
 
 <body>
-    <?php 
-        require('/shutuptrackers/inc/nav.php');
-    ?>
+    <?php require __DIR__ . "/inc/nav.php"; ?>
     </div>
     <div class="main ">
         <header>
@@ -45,7 +43,7 @@
             I want to response <i>"I need privacy, not because my actions are questionable, but because your judgement and intentions are."</i>
             </p>
             <h3 class="bold"><cite title="Permanent Record">- Edward Snowden in <a href="https://en.wikipedia.org/wiki/Permanent_Record_(autobiography)" target="_blank">Permanent Record</a> :</cite></h3>
-            <p class="introduct"><i>[...] But saying that you don't need or want privacy because you have nothing to hide is to assume that no one should have, or could have, to hide anything -- including their immigration status, unemployment history, financial history, and health records. 
+            <p class="introduct"><i>[...] But saying that you don't need or want privacy because you have nothing to hide is to assume that no one should have, or could have, to hide anything -- including their immigration status, unemployment history, financial history, and health records.
                 You're assuming that no one, including yourself, might object to revealing to anyone information about their religious beliefs, political affiliations, and sexual activities, as casually as some choose to reveal their movie and music tastes and reading preferences.</i></p>
             <br>
             <h3 class="bold"><cite title="The Guardian">- Chelsea E Manning in <a href="https://www.theguardian.com/commentisfree/2016/feb/22/privacy-is-a-right-not-a-luxury-and-its-increasingly-at-risk-for-lgbt-people" target="_blank">The Guardian</a> :</cite></h3>
@@ -53,10 +51,10 @@
             <br>
             <h3 class="bold"><cite title="Gary Kovacs">- Gary Kovacs</cite></h3>
             <p class="introduct"><i>Privacy is not an option, and it shouldn't be the price we accept for just getting on the internet.</i></p>
-            
+
             <div class="cercle "></div>
         </div>
-        <?php require('/shutuptrackers/inc/contact.php'); ?>
+        <?php require __DIR__ . "/../inc/contact.php"; ?>
         <div class="ressource ">
             <h3>Tools</h3>
             <ul>
@@ -81,7 +79,7 @@
         <footer>
         Shutuptrackers is a website that provides information for protecting your data security and privacy. No Ads, No Analytics, No Affiliates, No Cross-Site Requests.
             <small><a href="/thanks.php" class="thanks">Thanks page</a> / <a href="/LICENCE.txt" class="thanks">Licence</a></small>
-            
+
         </footer>
     </div>
 
