@@ -54,7 +54,7 @@
 
             <div class="cercle "></div>
         </div>
-        <?php require __DIR__ . "/../inc/contact.php"; ?>
+        <?php require __DIR__ . "/inc/contact.php"; ?>
         <div class="ressource ">
             <h3>Tools</h3>
             <ul>
